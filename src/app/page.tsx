@@ -2,7 +2,7 @@ import Image from 'next/image'
 import Head from 'next/head'
 import Link from 'next/link'
 import { compareDesc, format, parseISO } from 'date-fns';
-import { allArticles, Article } from 'contentlayer/generated'
+import { allArticles, Article } from '.contentlayer/generated'
 
 export const Post = (post:Article) => {
   return(

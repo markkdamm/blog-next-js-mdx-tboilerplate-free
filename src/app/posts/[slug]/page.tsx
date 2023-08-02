@@ -1,4 +1,4 @@
-import { allArticles } from "contentlayer/generated";
+import { allArticles } from ".contentlayer/generated";
 import { getMDXComponent } from "next-contentlayer/hooks";
 import { compareDesc, format, parseISO } from "date-fns";
 import Image from "next/image";

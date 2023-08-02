@@ -1,0 +1,56 @@
+[
+    {
+      "id": 1,
+      "class":"Summer",
+      "title": "Product 1",
+      "description": "This is the description for Product 1.",
+      "image": "/../public/iglu.jpg",
+      "sellername": "Sergio Holgado",
+      "sellerpfp": "/../public/logo.png"
+    },
+    {
+      "id": 2,
+      "class":"Summer",
+      "title": "Product 2",
+      "description": "This is the description for Product 2.",
+      "image": "/../public/iglu.jpg",
+      "sellername": "Jane Smith",
+      "sellerpfp": "/../public/logo.png"
+    },
+    {
+      "id": 3,
+      "class":"Summer",
+      "title": "Product 3",
+      "description": "This is the description for Product 3.",
+      "image": "/../public/iglu.jpg",
+      "sellername": "Bob Johnson",
+      "sellerpfp": "/../public/logo.png"
+    },
+    {
+      "id": 4,
+      "class":"Summer",
+      "title": "Product 4",
+      "description": "This is the description for Product 4.",
+      "image": "/../public/iglu.jpg",
+      "sellername": "Emily Williams",
+      "sellerpfp": "/../public/logo.png"
+    },
+    {
+      "id": 5,
+      "class":"Summer",
+      "title": "Product 5",
+      "description": "This is the description for Product 5.",
+      "image": "/../public/iglu.jpg",
+      "sellername": "Michael Anderson",
+      "sellerpfp": "/../public/logo.png"
+    },
+    {
+      "id": 6,
+      "class":"Summer",
+      "title": "Product 6",
+      "description": "This is the description for Product 6.",
+      "image": "/../public/iglu.jpg",
+      "sellername": "Sarah Davis",
+      "sellerpfp": "/../public/logo.png"
+    }
+  ]

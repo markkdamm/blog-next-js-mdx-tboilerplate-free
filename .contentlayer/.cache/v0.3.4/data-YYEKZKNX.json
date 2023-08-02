@@ -1,0 +1,32 @@
+{
+  "cacheItemsMap": {
+    "post-01.md": {
+      "document": {
+        "title": "My First Post",
+        "date": "2021-12-24T00:00:00.000Z",
+        "img": "/../public/iglu.jpg",
+        "tag": "programming",
+        "pfp": "/../public/logo.png",
+        "author": "Sergio Holgado",
+        "urli": "/post\r",
+        "body": {
+          "raw": "\r\nUllamco et nostrud magna commodo nostrud ...",
+          "html": "<p>Ullamco et nostrud magna commodo nostrud ...</p>"
+        },
+        "_id": "post-01.md",
+        "_raw": {
+          "sourceFilePath": "post-01.md",
+          "sourceFileName": "post-01.md",
+          "sourceFileDir": ".",
+          "contentType": "markdown",
+          "flattenedPath": "post-01"
+        },
+        "type": "Article",
+        "url": "/posts/post-01"
+      },
+      "documentHash": "1690889928001",
+      "hasWarnings": false,
+      "documentTypeName": "Article"
+    }
+  }
+}

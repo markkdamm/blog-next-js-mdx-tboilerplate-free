@@ -13,7 +13,7 @@ export const Post = (post:Article) => {
       <Image fill src={post.img} alt={post.title} className="object-cover overflow-hidden rounded-md" />
     </div>
     </div>
-    <p className={`font-semibold uppercase text-${post.color}-500 text-2x1 my-2 text-sm mt-5 w-full`}>{post.tag}</p>
+    <p className={`font-semibold uppercase text-blue-500 text-2x1 my-2 text-sm mt-5 w-full`}>{post.tag}</p>
     <h1 className="font-bold uppercase text-lg w-64">{post.title}</h1>
     <div className="flex flex-row inline-block absolute justify-around content-between py-3">
         <Image src={post.pfp} alt="Author pfp" height={23} width={23} className="rounded-full" />

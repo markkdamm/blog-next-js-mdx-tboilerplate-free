@@ -38,13 +38,6 @@ export default function Home() {
     </Head>
     <div className='w-full h-full flex flex-row justify-center place-content-center'>
     <div className='flex flex-wrap w-11/12 h-full place-content-evenly py-10 ml-16'>
-    <div className='flex flex-wrap w-10/12 h-12 flex-row mr-12 place-content-between mb-8'>
-      <Image src="/../public/iglu.jpg" alt="Blog Template Logo" height={75} width={100}/>
-      <div className='flex flex-row w-40 h-5 place-content-between mt-8'>
-      <button className='flex flex-column justify-center pr-2 text-slate-800 text-sm w-24 align-middle hover:text-purple-700 font-semibold'><Image className="mr-3" src="/../public/filter.png" alt="filter" width={16} height={16}/>  Sort</button>
-      <button className='flex flex-column justify-center pl-8 text-slate-800 text-sm w-24 align-middle hover:text-purple-700 font-semibold'><Image className="mr-3" src="/../public/sort.png" alt="filter" width={16} height={16}/>  Filter</button>
-      </div>
-    </div>
     {posts.map((post, idx) => (
         <Post key={idx} {...post} />
       ))}
@@ -96,3 +89,11 @@ export default function Home() {
 
   )
 }
+
+/*   <div className='flex flex-wrap w-10/12 h-12 flex-row mr-12 place-content-between mb-8'>
+<Image src="/../public/iglu.jpg" alt="Blog Template Logo" height={75} width={100}/>
+<div className='flex flex-row w-40 h-5 place-content-between mt-8'>
+<button className='flex flex-column justify-center pr-2 text-slate-800 text-sm w-24 align-middle hover:text-purple-700 font-semibold'><Image className="mr-3" src="/../public/filter.png" alt="filter" width={16} height={16}/>  Sort</button>
+<button className='flex flex-column justify-center pl-8 text-slate-800 text-sm w-24 align-middle hover:text-purple-700 font-semibold'><Image className="mr-3" src="/../public/sort.png" alt="filter" width={16} height={16}/>  Filter</button>
+</div>
+</div>*/

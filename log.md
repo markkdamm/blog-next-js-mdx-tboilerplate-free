@@ -9,7 +9,8 @@
 # Bugs
 
 * responsiveness not working well
-* colors not workings
+* tag colors not workings
+* local images not loading on vercel
 
 # To-do:
 * Colors for tags

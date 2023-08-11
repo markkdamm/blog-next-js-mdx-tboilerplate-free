@@ -2,13 +2,13 @@
 const { withContentlayer } = require('next-contentlayer')
 
 /** @type {import('next').NextConfig} */
-const nextConfig = { reactStrictMode: true, swcMinify: true }
+const nextConfig = { reactStrictMode: true, swcMinify: true}
 
 module.exports = withContentlayer(nextConfig)
 
 module.exports = {
     images: {
-      domains: ["images.pexels.com","miro.medium.com", "www.cnet.com"],
+      domains: ["images.pexels.com","miro.medium.com", "www.cnet.com","i.ibb.co"],
     },
   }
 
